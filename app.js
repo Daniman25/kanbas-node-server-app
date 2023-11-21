@@ -7,6 +7,6 @@ import "dotenv/config";
 const app = express();
 app.use(cors());
 CourseRoutes(app);
-Lab5(app);
+//Lab5(app);
 Hello(app);
 app.listen(process.env.PORT || 4000);
